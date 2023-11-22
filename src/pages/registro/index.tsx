@@ -31,7 +31,8 @@ export default function Registro() {
         minH={'93vh'}
         align={'center'}
         justify={'center'}
-        bg={useColorModeValue('gray.50', 'gray.800')}>
+        bg={useColorModeValue('gray.50', 'gray.800')}
+        pb={50}>
         <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
           <Stack align={'center'}>
             <Heading fontSize={'4xl'} textAlign={'center'}>
@@ -48,24 +49,28 @@ export default function Registro() {
                 <Box>
                   <FormControl id="firstName" isRequired>
                     <FormLabel>Nome</FormLabel>
-                    <Input type="text" />
+                    <Input type="text" size={"lg"} borderRadius="8px"
+                      bg="brandDark.600" />
                   </FormControl>
                 </Box>
                 <Box>
                   <FormControl id="lastName" isRequired>
                     <FormLabel>Sobrenome</FormLabel>
-                    <Input type="text" />
+                    <Input type="text" size={"lg"} borderRadius="8px"
+                      bg="brandDark.600" />
                   </FormControl>
                 </Box>
               </HStack>
               <FormControl id="email" isRequired>
                 <FormLabel>Email</FormLabel>
-                <Input type="email" />
+                <Input type="email" size={"lg"} borderRadius="8px"
+                  bg="brandDark.600" />
               </FormControl>
               <FormControl id="password" isRequired>
                 <FormLabel>Senha</FormLabel>
                 <InputGroup>
-                  <Input type={showPassword ? 'text' : 'password'} />
+                  <Input type={showPassword ? 'text' : 'password'} size={"lg"} borderRadius="8px"
+                    bg="brandDark.600" />
                   <InputRightElement h={'full'}>
                     <Button
                       variant={'ghost'}
@@ -77,7 +82,7 @@ export default function Registro() {
               </FormControl>
               <Stack spacing={10} pt={2}>
                 <Link
-                  p={2}
+                  p={3}
                   borderRadius={'4px'}
                   textAlign={'center'}
                   size="lg"

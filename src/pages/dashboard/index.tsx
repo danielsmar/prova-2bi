@@ -17,7 +17,7 @@ export default function blogPostWithImage() {
   return (
     <>
       <NavBar />
-      <Box minHeight="100vh" display="flex" flexDirection="column">
+      <Box minHeight="100vh" display="flex" flexDirection="column" pb={55}>
         <Center py={6} flex={1} flexDirection={'column'} >
           <Box
             maxW={'445px'}

@@ -22,6 +22,7 @@ export default function Login() {
     <>
       <NavBar />
       <Flex
+        pb={50}
         minH={'94.4vh'}
         align={'center'}
         display={'flex'}
@@ -41,11 +42,13 @@ export default function Login() {
             <Stack spacing={4}>
               <FormControl id="email">
                 <FormLabel>Email</FormLabel>
-                <Input type="email" />
+                <Input type="email" size={"lg"} borderRadius="8px"
+                  bg="brandDark.600" />
               </FormControl>
               <FormControl id="password">
                 <FormLabel>Senha</FormLabel>
-                <Input type="password" />
+                <Input type="password" size={"lg"} borderRadius="8px"
+                  bg="brandDark.600" />
               </FormControl>
               <Stack spacing={10}>
                 <Stack
@@ -56,7 +59,7 @@ export default function Login() {
                   <Link href='/recover' color={'brand.500'}>Esquecei minha senha</Link>
                 </Stack>
                 <Link
-                  p={2}
+                  p={3}
                   borderRadius={'4px'}
                   textAlign={'center'}
                   size="lg"
