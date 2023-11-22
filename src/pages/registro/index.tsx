@@ -52,7 +52,7 @@ export default function Registro() {
                   </FormControl>
                 </Box>
                 <Box>
-                  <FormControl id="lastName">
+                  <FormControl id="lastName" isRequired>
                     <FormLabel>Sobrenome</FormLabel>
                     <Input type="text" />
                   </FormControl>
