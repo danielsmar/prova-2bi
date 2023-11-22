@@ -1,6 +1,7 @@
 'use client'
 
 import {
+  Button,
   Flex,
   FormControl,
   FormLabel,
@@ -99,11 +100,11 @@ export default function ResetPasswordForm() {
           </InputGroup>
         </FormControl>
         <Stack spacing={6}>
-          <Link
+          <Button as={'a'}
             p={3}
             borderRadius={'4px'}
             textAlign={'center'}
-            size="xs"
+            size="lg"
             bg={'brand.500'}
             color={'white'}
             href={'/'}
@@ -111,7 +112,7 @@ export default function ResetPasswordForm() {
               bg: 'brand.200',
             }}>
             Enviar
-          </Link>
+          </Button>
         </Stack>
       </Stack>
     </Flex>

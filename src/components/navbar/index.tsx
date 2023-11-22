@@ -23,7 +23,7 @@ export default function NavBar() {
   const { isOpen, onToggle } = useDisclosure()
 
   return (
-    <Box>
+    <Box justifyContent={'center'} alignItems={'center'}>
       <Flex
         bg={useColorModeValue('white', 'gray.800')}
         color={useColorModeValue('gray.600', 'white')}
@@ -90,10 +90,11 @@ const DesktopNav = () => {
   return (
     <Stack direction={'row'} spacing={4}>
       {NAV_ITEMS.map((navItem) => (
-        <Box key={navItem.label}>
+        <Box key={navItem.label} justifyContent={'center'} display={'flex'}>
           <Popover trigger={'hover'} placement={'bottom-start'}>
             <PopoverTrigger>
               <Box
+
                 as="a"
                 p={2}
                 href={navItem.href ?? '#'}

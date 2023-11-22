@@ -58,19 +58,19 @@ export default function Login() {
                   <Checkbox>Lembrar de mim</Checkbox>
                   <Link href='/recover' color={'brand.500'}>Esquecei minha senha</Link>
                 </Stack>
-                <Link
+                <Button as={'a'}
                   p={3}
                   borderRadius={'4px'}
                   textAlign={'center'}
                   size="lg"
                   bg={'brand.500'}
                   color={'white'}
-                  href={'/'}
+                  href={'/dashboard'}
                   _hover={{
                     bg: 'brand.200',
                   }}>
                   Entrar
-                </Link>
+                </Button>
               </Stack>
             </Stack>
           </Box>

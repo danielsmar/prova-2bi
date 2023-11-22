@@ -14,7 +14,7 @@ export function Logo({
   const height = useMemo(() => width * 0.6623, [width]);
 
   return (
-    <Box display="flex" justifyContent="center">
+    <Box display="flex" justifyContent="center" as='a' href='/'>
       <Image src="/logo-web.svg" width={width} height={height} alt="logo" />
     </Box>
   );

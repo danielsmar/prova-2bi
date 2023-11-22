@@ -31,7 +31,8 @@ export default function Home() {
         </Text>
 
         <Stack spacing={6} direction={'row'}>
-          <Button
+          <Button as='a'
+            href='https://github.com/danielsmar/simulado-2bi'
             rounded={'full'}
             px={6}
             colorScheme={'orange'}

@@ -14,18 +14,6 @@ export const theme = extendTheme({
       800: '#1C246C',
       900: '#192061',
     },
-    brandPink: {
-      50: '#ffe6f8',
-      100: '#f8bbdf',
-      200: '#ef90c7',
-      300: '#e764af',
-      400: '#df3998',
-      500: '#c6207f',
-      600: '#9b1763',
-      700: '#700f47',
-      800: '#45062b',
-      900: '#1c0011',
-    },
   },
   fonts: {
     heading: `Inter, ${base.fonts?.heading}`,

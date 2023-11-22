@@ -46,13 +46,14 @@ export default function Recover() {
           </Text>
           <FormControl id="email">
             <Input
-              placeholder="Email"
+              size="lg"
+              placeholder="Digite seu e-mail"
               _placeholder={{ color: 'gray.500' }}
               type="email"
             />
           </FormControl>
           <Stack spacing={6}>
-            <Link
+            <Button as={'a'}
               p={2}
               borderRadius={'4px'}
               textAlign={'center'}
@@ -64,7 +65,7 @@ export default function Recover() {
                 bg: 'brand.200',
               }}>
               Enviar
-            </Link>
+            </Button>
           </Stack>
         </Stack>
       </Flex>
