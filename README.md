@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Aluno: Daniel Valadares Marculano
+# Simulado 2º Bimeste - Web Avançada 
 
-## Getting Started
+Este é um projeto de um simulado para o 2º bimestre. O objetivo é criar um ambiente de teste para avaliar o conhecimento adquirido durante esse período.
 
-First, run the development server:
+O Projeto foi deselvolvido seguindo os critérios estabelecidos no blog. Foi utilizado no desenvolvimento [Next.js](https://nextjs.org), [Chakra UI](https://chakra-ui.com) e [Typescript](https://www.typescriptlang.org).
+# Instalação
 
+## Clone o repositório
+Para clonar utilizando HTTPS, siga os passos abaixo:
+1. Clique no botão "Code" (ou "Código") verde, localizado acima da lista de arquivos do repositório.
+2. Selecione a opção "HTTPS" para obter a URL do repositório usando esse método.
+3. Copie a URL do repositório HTTPS.
+4. Abra o terminal no seu computador.
+5. Navegue até o diretório onde deseja clonar o repositório.
+6. Execute o seguinte comando no terminal:
+
+Para clonar utilizando SSH, siga os passos abaixo:
+1. Clique no botão "Code" (ou "Código") verde, localizado acima da lista de arquivos do repositório.
+2. Selecione a opção "SSH" para obter a URL do repositório usando esse método.
+3. Copie a URL do repositório SSH.
+4. Abra o terminal no seu computador.
+5. Navegue até o diretório onde deseja clonar o repositório.
+6. Execute o seguinte comando no terminal:
+
+## Instale as dependências
+Utilize o comando abaixo em seu terminal para a instalação das dependências.
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
+## Uso
+Acesse [http://localhost:3000](http://localhost:3000) em seu navegador para visualizar.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Licença
+Este projeto está licenciado sob a [MIT License](https://choosealicense.com/licenses/mit/). 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
