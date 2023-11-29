@@ -19,24 +19,24 @@ export default function Home() {
           fontWeight={600}
           fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
           lineHeight={'110%'}>
-          Programação Avançada para Web {' '}
+          Conheça a programação do {' '}
           <Text as={'span'} color={'brand.400'}>
-            Simulado 2º Bimestre
+            INOVA WEEK 2023
           </Text>
         </Heading>
         <Text color={'gray.500'} maxW={'3xl'}>
-          O Projeto foi deselvolvido seguindo os critérios estabelecidos no blog. Foi utilizado no desenvolvimento Next.js, Chakra UI e Typescript.
+          O maior evento universitário de inovação e empreendedorismo do ES está chegando! O InovaWeek 2023, promovido pela Universidade Vila Velha, acontece de 12 a 14 de setembro, no Campus Boa Vista da instituição.
         </Text>
 
         <Stack spacing={6} direction={'row'}>
           <Button as='a'
-            href='https://github.com/danielsmar/simulado-2bi'
+            href='https://uvv.br/2023/08/30/conheca-a-programacao-do-inovaweek-2023/'
             rounded={'full'}
             px={6}
             colorScheme={'orange'}
             bg={'brand.500'}
             _hover={{ bg: 'brand.200' }}>
-            Repositório GitHub
+            Conheça a programação
           </Button>
 
         </Stack>
