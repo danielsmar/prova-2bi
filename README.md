@@ -1,7 +1,7 @@
 ### Aluno: Daniel Valadares Marculano
-# Simulado 2º Bimeste - Web Avançada 
+# Prova 2º Bimeste - Web Avançada 
 
-Este é um projeto de um simulado para o 2º bimestre. O objetivo é criar um ambiente de teste para avaliar o conhecimento adquirido durante esse período.
+Este é um projeto para a prova do 2º bimestre. O objetivo é criar um ambiente de teste para avaliar o conhecimento adquirido durante esse período.
 
 O Projeto foi deselvolvido seguindo os critérios estabelecidos no blog. Foi utilizado no desenvolvimento [Next.js](https://nextjs.org), [Chakra UI](https://chakra-ui.com) e [Typescript](https://www.typescriptlang.org).
 # Instalação
